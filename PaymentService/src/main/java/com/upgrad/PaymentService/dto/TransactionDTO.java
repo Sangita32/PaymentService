@@ -1,6 +1,6 @@
 package com.upgrad.PaymentService.dto;
 
-import javax.persistence.Column;
+
 
 public class TransactionDTO {
     private int transactionId;

@@ -13,10 +13,6 @@ public class TransactionServiceImpl implements TransactionService{
     @Autowired
     private TransactionRepository transactonRepository;
 
-    /*public TransactionServiceImpl(TransactionRepository transactonRepository) {
-        this.transactonRepository = transactonRepository;
-    }*/
-
     @Override
     public int createTransaction(TransactionDetailsEntity transactionDetailsEntity) {
         return transactonRepository.save(transactionDetailsEntity).getTransactionId();

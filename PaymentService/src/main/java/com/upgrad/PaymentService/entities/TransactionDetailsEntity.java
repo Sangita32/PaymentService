@@ -1,6 +1,8 @@
 package com.upgrad.PaymentService.entities;
 
-import javax.persistence.*;
+
+import jakarta.persistence.*;
+
 
 @Entity
 @Table(name = "transaction")
